@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--background and fill colors-->
+  <item type="color" name="AppPrimary">#673AB7</item>
+  <item type="color" name="AppPrimaryLight">#9575CD</item>
+  <item type="color" name="AppPrimaryDark">#512DA8</item>
+  <item type="color" name="AppAccent">#18FFFF</item>
+
+  <!--text-->
+  <item type="color" name="AppPrimaryText">#FFFFFF</item>
+  <item type="color" name="AppPrimaryLightText">#AA000000</item>
+  <item type="color" name="AppPrimaryDarkText">#FFFFFF</item>
+  <item type="color" name="AppAccentText">#FFFFFF</item>
+</resources>

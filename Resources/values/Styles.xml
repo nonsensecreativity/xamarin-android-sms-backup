@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.SmsBackup" parent="Theme.AppCompat.Light">
+    <item name="colorPrimary">@color/AppPrimary</item>
+    <item name="colorPrimaryDark">@color/AppPrimaryDark</item>
+    <item name="colorAccent">@color/AppAccent</item>
+
+    <item name="background">@android:color/white</item>
+
+    <item name="tabIndicatorColor">@color/AppPrimary</item>
+
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+
+    <item name="android:textColorPrimary">@color/AppPrimaryText</item>
+    <item name="android:textColorSecondary">@color/AppPrimaryText</item>
+  </style>
+</resources>

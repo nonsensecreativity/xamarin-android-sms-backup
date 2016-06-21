@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">SMS Backup</string>
+
+  <string name="SmsInboxUri">content://sms/inbox</string>
+  <string name="SmsSentUri">content://sms/sent</string>
+  <string name="SmsDraftUri">content://sms/draft</string>
+
+  <string-array name="SmsFields">
+    <item>_id</item>
+    <item>thread_id</item>
+    <item>address</item>
+    <item>person</item>
+    <item>date</item>
+    <item>protocol</item>
+    <item>read</item>
+    <item>status</item>
+    <item>type</item>
+    <item>reply_path_present</item>
+    <item>subject</item>
+    <item>body</item>
+    <item>service_center</item>
+    <item>locked</item>
+  </string-array>
+
+  <string-array name="MainTabTitles">
+    <item>Backup</item>
+    <item>Restore</item>
+  </string-array>
+</resources>
