@@ -21,5 +21,13 @@ namespace SmsBackup.Models
         public string Body { get; set; }
         public string ServiceCenter { get; set; }
         public bool Locked { get; set; }
+        public MessageType BackupMessageType { get; set; }
+    }
+
+    public enum MessageType
+    {
+        Inbox = 0,
+        Sent = 1,
+        Draft = 2
     }
 }

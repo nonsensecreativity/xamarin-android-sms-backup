@@ -27,4 +27,16 @@
     <item>Backup</item>
     <item>Restore</item>
   </string-array>
+  
+  
+  <!--Backup-->
+  <string name="IncludeContactsLabel">Include contacts</string>
+  <string name="DiscardSubjectsLabel">Discard subjects</string>
+  <string name="DiscardShortNumbersLabel">Discard messages with short phone numbers</string>
+  <string name="IncludeImagesLabel">Include images</string>
+  <string name="FormatJson">JSON</string>
+  <string name="FormatXml">XML</string>
+  <string name="FormatCsv">CSV</string>
+  <string name="BackupButton">Start Backup</string>
+
 </resources>

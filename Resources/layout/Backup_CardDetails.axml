@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Options:"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+            <CheckBox
+                android:text="@string/IncludeContactsLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Backup_IncludeContacts" />
+            <CheckBox
+                android:text="@string/DiscardSubjectsLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Backup_DiscardSubjects" />
+            <CheckBox
+                android:text="@string/DiscardShortNumbersLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Backup_DiscardShortNumbers" />
+            <CheckBox
+                android:text="@string/IncludeImagesLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Backup_IncludeImages" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:text="Select file format:"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Backup_FormatRadioGroup"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/FormatJson"
+                android:id="@+id/Backup_Format_Json" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FormatXml"
+                android:id="@+id/Backup_Format_Xml" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FormatCsv"
+                android:id="@+id/Backup_Format_Csv" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout4"
+        android:gravity="right|bottom">
+        <Button
+            android:text="@string/BackupButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Backup_BackupButton" />
+    </LinearLayout>
+</LinearLayout>

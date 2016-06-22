@@ -5,14 +5,19 @@
     <item name="colorPrimaryDark">@color/AppPrimaryDark</item>
     <item name="colorAccent">@color/AppAccent</item>
 
-    <item name="background">@android:color/white</item>
-
-    <item name="tabIndicatorColor">@color/AppPrimary</item>
-
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
+  </style>
 
+  <style name="Theme.SmsBackup.WhiteBackground" parent="Theme.SmsBackup">
+    <item name="android:textColorPrimary">@color/AppAccentText</item>
+    <item name="android:textColorSecondary">@color/AppAccentText</item>
+    <item name="background">@android:color/black</item>
+  </style>
+
+  <style name="Theme.SmsBackup.Toolbar" parent="Theme.SmsBackup">
     <item name="android:textColorPrimary">@color/AppPrimaryText</item>
     <item name="android:textColorSecondary">@color/AppPrimaryText</item>
+    <item name="tabIndicatorColor">@color/AppPrimary</item>
   </style>
 </resources>

@@ -4,7 +4,7 @@
   <item type="color" name="AppPrimary">#673AB7</item>
   <item type="color" name="AppPrimaryLight">#9575CD</item>
   <item type="color" name="AppPrimaryDark">#512DA8</item>
-  <item type="color" name="AppAccent">#18FFFF</item>
+  <item type="color" name="AppAccent">#00E5FF</item>
 
   <!--text-->
   <item type="color" name="AppPrimaryText">#FFFFFF</item>
